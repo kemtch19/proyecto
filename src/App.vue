@@ -1,6 +1,6 @@
-<template>
+<!-- <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <HelloWorld msg="Hola que tal esto te hablo desde el app.vue"/>
 </template>
 
 <script lang="ts">
@@ -24,4 +24,18 @@ export default defineComponent({
   color: #2c3e50;
   margin-top: 60px;
 }
+</style> -->
+
+<template>
+  <h1>Título de Practica</h1>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <ComponentExample />
+</template>
+
+<script setup lang="ts">
+import HelloWorld from "./components/HelloWorld.vue";
+import ComponentExample from "./components/ComponentExample.vue";
+</script>
+
+<style lang="sscs" scoped>
 </style>
